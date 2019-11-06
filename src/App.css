@@ -20,3 +20,93 @@
 .App-link {
   color: #09d3ac;
 }
+
+.div1{
+  background-color: black;
+  height: 10vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  color: white;
+  border-radius: 10px;
+}
+
+.parent1{
+  flex-direction:row;
+  position: relative;
+  display:flex;
+  width: 100vw;
+  height: 11vh;
+  justify-content: space-around;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.texto{
+  height: 3vh;
+  width: 100vw;
+  text-align: center;
+  padding: 0.5vw 0.5vw 0.5vw 0.5vw;
+}
+
+.textContainer{
+  display:flex;
+}
+
+.info{
+  margin-top: 3vh;
+  margin-left: 2vw;
+  text-align: center;
+}
+
+.surr{
+  background-color: red;
+  margin-top:3.1vh;
+  height: 4vh;
+  width: 5vw;
+  border-radius: 5px;
+
+}
+
+.surr1{
+  background-color: red;
+  margin-top:3.1vh;
+  height: 4vh;
+  width: 4vw;
+  margin-left: 3.9vw;
+  border-radius: 5px;
+}
+
+.table1 {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 5vw;
+  height: 20%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.scrollit {
+  overflow-y:scroll;
+  display: flex;
+  height: 65vh;
+   border: 1px solid #dddddd;
+}
+
+.table2{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 14vw;
+  height: 20%;
+}
